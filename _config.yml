@@ -8,7 +8,9 @@ subtitle: My Blog
 description: Where amazing happens
 keywords: flight
 author: FLighT
-language: zh-Hans
+language: 
+    -zh-Hans
+    
 timezone: Asia/Shanghai
 
 # URL
@@ -80,6 +82,6 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/FLighTCN/FLighTCN.github.io.git
+  repo: git@github.com:FLighTCN/FLighTCN.github.io.git
   branch: master
-  message: motify blog
+  message: Update date:{{ now('YYYY-MM-DD HH:mm:ss') }}
